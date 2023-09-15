@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: antiquewhite;
+}
+
+body {
+    margin: 20px;
+}
+
+.container {
+    width: inherit;
+    height: inherit;
+    /* border: 2px solid teal; */
+    
+    /* background-color: teal; */
+}
+
+.container h2 {
+    /* border: 2px solid salmon; */
+    margin: 50px;
+}
+
+.container h2::before {
+    content: 'الله';
+    color: rgb(10, 118, 10);
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+}
+
+
+.container h1, h2 {
+    text-align: center;
+    padding: 5px;
+}
+
+
+.quran-txt {
+    color: rgb(10, 118, 10);
+}
+
+.container p {
+    text-align: center;
+}
+
+
+.mission {
+    margin: 20px;
+    /* border: 2px solid red; */
+    font-style: italic;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mission-text {
+    /* border: 2px solid violet; */
+
+}
+
+.confused-hijabi {
+    width: 200px;
+    height: 200px;
+}
+
+/* 
+
+Information Grid (is a single scroll page with flex display on mobile
+and a grid display on tablets and laptops)
+
+*/
+
+
+.info-grid {
+    padding-top: 40px;
+    width: inherit;
+    height: inherit;
+    /* border: 2px solid rebeccapurple; */
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(1, auto);
+
+}
+
+.info-grid img {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.info-grid img:hover {
+    opacity: 0.8;
+}
+
+
+
+.nikkah-talaq, .salah, .wealth, .life-death {
+    /* border: 2px solid pink; */
+}
+
+
+
+.nikkah-talaq p, .salah p, .wealth p, .life-death p {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+    
+}
+
+.nikkah-talaq, .salah, .wealth, .life-death {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    margin: 30px;
+}
+
+/* Media Frames */
+
+/* Tablet */
+@media (min-width: 768px) {
+    .info-grid {
+        padding: 50px;
+    }
+
+    .mission-text p {
+        margin-top: 50px;
+    }
+}
+
+/* Laptop */
+@media (min-width: 1024px) {
+    *{
+        font-size: 1.3rem;
+    }
+
+    .mission-text p {
+        margin-top: 20px;
+    }
+
+    .info-grid img {
+        width: 300px;
+        height: 300px;
+    }
+
+
+    
+}
+
+/* Laptop - L*/
+@media (min-width: 1440px) {
+    *{
+        font-size: 1.4rem;
+    }
+
+    .mission-text p {
+        margin-top: 20px;
+    }
+
+    .info-grid img {
+        width: 350px;
+        height: 350px;
+    }
+
+}
