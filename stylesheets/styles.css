@@ -78,12 +78,12 @@ and a grid display on tablets and laptops)
 
 .info-grid {
     padding-top: 40px;
-    width: inherit;
-    height: inherit;
-    /* border: 2px solid rebeccapurple; */
-    display: grid;
-    grid-template-columns: repeat(1, auto);
-    grid-template-rows: repeat(1, auto);
+    /* width: inherit;
+    height: inherit; */
+    border: 2px solid rebeccapurple;
+    /* display: grid; */
+    /* grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(1, auto); */
 
 }
 
@@ -99,21 +99,22 @@ and a grid display on tablets and laptops)
 
 
 
-.nikkah-talaq, .salah, .wealth, .life-death {
-    /* border: 2px solid pink; */
+.nikkah-talaq, .salah, .wealth, .life-death, .modesty {
+    border: 2px solid pink;
 }
 
 
 
-.nikkah-talaq p, .salah p, .wealth p, .life-death p {
+.nikkah-talaq p, .salah p, .wealth p, .life-death p, .modesty p {
     /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
-    justify-content: center
+    justify-content: center;
+    font-weight: bold;
     
 }
 
-.nikkah-talaq, .salah, .wealth, .life-death {
+.nikkah-talaq, .salah, .wealth, .life-death, .modesty {
     display: flex;
     justify-content: space-around;
 }
@@ -125,6 +126,8 @@ footer {
     font-weight: bold;
     margin: 30px;
 }
+
+
 
 /* Media Frames */
 
