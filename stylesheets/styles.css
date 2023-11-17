@@ -80,7 +80,7 @@ and a grid display on tablets and laptops)
     padding-top: 40px;
     /* width: inherit;
     height: inherit; */
-    border: 2px solid rebeccapurple;
+    /* border: 2px solid rebeccapurple; */
     /* display: grid; */
     /* grid-template-columns: repeat(1, auto);
     grid-template-rows: repeat(1, auto); */
@@ -100,7 +100,7 @@ and a grid display on tablets and laptops)
 
 
 .nikkah-talaq, .salah, .wealth, .life-death, .modesty {
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
 }
 
 
